@@ -13,34 +13,58 @@
 
     <form action="" method="get">
         <fieldset>
-            <label for="fname">Nombre:</label><br>
-            <input type="text" name="fname" id="fname" size="10" maxlength="10" required><br><br>
+            <label for="fname">Nombre:</label> <br>
+            <input type="text" name="fname" id="fname" size="10" maxlength="10" required> <br><br>
 
             <label for="lname">Apellidos:</label><br>
-            <input type="text" name="lname" id="lname" size="25" maxlength="25" required><br><br>
+            <input type="text" name="lname" id="lname" size="25" maxlength="25" required> <br><br>
 
-            <label for="email">Correo electrónico:</label><br>
-            <input type="email" name="email" id="email" required><br><br>
+            <!-- edad - Meter un disabled en el que al pasar el ratón por encima de la edad que te diga que tienes que tener 18 años-->
+            <label for="datebirth">Fecha de nacimiento</label> <br>
+            <input type="date" name="datebirth" id="datebirth" min="2004-01-01"> <br><br>
 
-            <label for=""></label>
-            <input type="tel" name="" id="">
+            <!-- trabajo?  -->
+
+            <label for="email">Correo electrónico:</label> <br>
+            <input type="email" name="email" id="email" required> <br><br>
+
+            <label for="phone">Teléfono de contacto:</label> <br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{9}"  title="6 dígitos máximo y debe ir uno seguido del otro" > <br>
+            <small>Formato: 611616161</small><br><br>
       
             <fieldset>
-                <legend>Género</legend>
-                <input type="radio" name="gender" id="mujer" value="Mujer">
-                <label for="mujer">Mujer</label><br>
+                <legend>Género</legend> <!-- Meter un disabled en el que al pasar el ratón por encima del género te avise de que esta elección es para saber cómo referirnos hacia la persona-->
+                <input type="radio" name="gender" id="famale" value="Mujer">
+                <label for="famale">Mujer</label> <br>
 
-                <input type="radio" name="gender" id="hombre" va    lue="Hombre">
-                <label for="hombre">Hombre</label><br>
+                <input type="radio" name="gender" id="man" value="Hombre">
+                <label for="man">Hombre</label> <br>
+
+                <input type="radio" name="gender" id="neutral" value="Neutro">
+                <label for="neutral">Neutro</label> <br>
 
                 <input type="radio" name="gender" id="dontsay" value="Prefiero no decirlo" required>
                 <label for="dontsay">Prefiero no decirlo</label> <br><br>
-            </fieldset>
+            </fieldset> <br><br>
+
+            <fieldset>
+                <legend>Mascotas</legend> <!-- Meter que solo puedas elegir una opción y sea obligatorio -->
+                <p>¿Tienes o has tenido mascotas alguna vez?</p>
+                <input type="checkbox" name="pet" id="yes" value="Sí" required>
+                <label for="yes">Sí</label> <br>
+
+                <input type="checkbox" name="pet" id="no" value="No">
+                <label for="no">No</label> <br><br>
+
+                <p>Si tienes o has tenido mascotas, ¿cuántas?</p>
+                <label for="quantity">Cantidad (entre 1 y 20):</label>
+                <input type="number" name="quantity" id="quantity" min="1" max="20" required>
+            </fieldset> <br><br>
 
             <input type="reset"/>
-            <input type="submit" value="Submit">
-
+            <input type="submit" value="Enviar formulario">
         </fieldset>
+        
     </form>
 
     <!-- <footer></footer> -->
