@@ -1,2 +1,2 @@
 Ejercicio 1 = HECHO
-Ejercicio 2 = 
+Ejercicio 2 = HECHO
