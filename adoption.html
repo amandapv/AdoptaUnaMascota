@@ -8,86 +8,170 @@
 </head>
 <body>
     <header>
-        <h1>FORMULARIO DE CONTACTO</h1>
-
-        <!-- Menú de Navegación -->
-        <nav class="menu">
-            <a href="./index.html" target="_blank">Home</a> |
-            <a href="./adoption.html">Adopción</a> |
-            <a href="./blog.html" target="_blank">Blog</a> |
-            <a href="./shop.html" target="_blank">Tienda</a> |
-            <a href="./aboutUs.html" target="_blank">Sobre Nosotros</a>
-        </nav> <br><br>
+        <h1>ADOPCIÓN</h1>
     </header>
 
+    <!-- Menú de Navegación -->
+    <nav class="menu">
+        <a href="./index.html" target="_blank">Home</a> |
+        <a href="./adoption.html">Adopción</a> |
+        <a href="./blog.html" target="_blank">Blog</a> |
+        <a href="./shop.html" target="_blank">Tienda</a> |
+        <a href="./aboutUs.html" target="_blank">Sobre Nosotros</a>
+        <a id="principio"></a>
+    </nav> <br><br>
 
-    <form action="" method="get">
-        <fieldset>
-            <label for="fname">Nombre:</label> <br>
-            <input type="text" name="fname" id="fname" size="10" maxlength="10" required> <br><br>
+    <article>
+        <header>
+            <h2>Importante</h2>
+        </header>
+        <blockquote>Para poder adoptar a estos animales, deberás cubrir el formulario de adopción que encontrás más abajo. Algunas cuestiones, cómo el Género, son meramente informativas para poder saber cómo referirnos a la persona con la que hablemos. </blockquote>
+        <blockquote>Otras por el contrario son de vital importancia para la adopción, como la edad, ya que deberás ser mayor de 18 años, esto es así por ley.</blockquote>
+        <blockquote>Aquí solo aparecerán los animales que estén en adopción en este momento, si quieres ver los detalles de estos, solo tienes que pinchar en su nombre.</blockquote>
+        <blockquote>Una vez enviado el formulario de adopción, procederemos a revisar los datos para saber si los cumple. En caso de que no pueda/quiera enviar el formulario, por el motivo que sea, puede ponerse en contacto con nosotros y le realizaremos las preguntas pertinentes en persona</blockquote>
+        <blockquote>Si el formulario ha sido aceptado, se le enviará un correo informando el día y hora aproximado en el que concretaremos una cita</blockquote>
+    </article> <br><br><br>
 
-            <label for="lname">Apellidos:</label><br>
-            <input type="text" name="lname" id="lname" size="25" maxlength="25" required> <br><br>
-
-            <!-- edad - Meter un disabled en el que al pasar el ratón por encima de la edad que te diga que tienes que tener 18 años-->
-            <label for="datebirth">Fecha de nacimiento</label> <br>
-            <input type="date" name="datebirth" id="datebirth" max="2004-01-01" required> <br><br>
-
-            <!-- trabajo?  -->
-
-            <label for="email">Correo electrónico:</label> <br>
-            <input type="email" name="email" id="email" required> <br><br>
-
-            <label for="phone">Teléfono de contacto:</label> <br>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{9}"  title="6 dígitos máximo y debe ir uno seguido del otro" required> <br>
-            <small>Formato: 611616161</small><br><br>
-
-            <legend>Género</legend> <!-- Meter un disabled en el que al pasar el ratón por encima del género te avise de que esta elección es para saber cómo referirnos hacia la persona-->
-            <label for="cars">Género</label>
-            <select id="cars" name="gender" form="">
-                <option value="mujer">Mujer</option>
-                <option value="hombre">Hombre</option>
-                <option value="neutral">Neutro</option>
-                <option autofocus value="dontsay">Prefiero no decirlo</option>
-            </select> <br><br><br>
+    <article>
+        <header>
+            <h2>Animales en adopción</h2>
+        </header>
+        <section>
+            <fieldset>
+                <legend>PERROS</legend>
+                <article>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html#haru" target="_blank">Haru</a></li>
+                            <li><a href="./index.html#linux" target="_blank">Linux</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </fieldset>
 
             <fieldset>
-                <legend>Mascotas</legend> <!-- Meter que solo puedas elegir una opción y sea obligatorio -->
-                <p>¿Tienes o has tenido mascotas alguna vez?</p>
-                <input type="radio" name="pet" id="yes" value="Si" required>
-                <label for="yes">Sí</label> <br>
+                <legend>GATOS</legend>
+                <article>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html#kity" target="_blank">Kity</a></li>
+                            <li><a href="./index.html#beethoven" target="_blank">Beethoven</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </fieldset>
 
-                <input type="radio" name="pet" id="no" value="No">
-                <label for="no">No</label> <br><br><br>
+            <fieldset>
+                <legend>PÁJAROS</legend>
+                <article>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html#piolin" target="_blank">Piolín</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </fieldset>
 
-                <p>Si tienes o has tenido mascotas, ¿cuántas?</p>
-                <label for="quantity">Cantidad (entre 1 y 20):</label>
-                <input type="number" name="quantity" id="quantity" min="1" max="20"> <br><br><br>
+            <fieldset>
+                <legend>ROEDORES</legend>
+                <article>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html#hocicos" target="_blank">Hocicos</a></li>
+                        </ul>
+                    </nav>
+                </article>
+            </fieldset>
+        </section>
+    </article> <br><br><br>
 
-                <p>¿Qué tipo de mascota?</p>
-                <input type="checkbox" name="numberPet" id="dogs" value="Perros">
-                <label for="dogs">Perros</label> <br>
+    <article>
+        <header>
+            <h2>Formulario de adopción</h2>
+        </header>
 
-                <input type="checkbox" name="numberPet" id="cats" value="Gatos">
-                <label for="cats">Gatos</label> <br>
+        <form action="" method="get">
+            <fieldset>
+                <label for="fname">Nombre:</label> <br>
+                <input type="text" name="fname" id="fname" size="10" maxlength="10" required> <br><br>
+    
+                <label for="lname">Apellidos:</label><br>
+                <input type="text" name="lname" id="lname" size="25" maxlength="25" required> <br><br>
+    
+                <!-- edad - Meter un disabled en el que al pasar el ratón por encima de la edad que te diga que tienes que tener 18 años-->
+                <label for="datebirth">Fecha de nacimiento</label> <br>
+                <input type="date" name="datebirth" id="datebirth" max="2004-01-01" required> <br><br>
+    
+                <!-- trabajo?  -->
+    
+                <label for="email">Correo electrónico:</label> <br>
+                <input type="email" name="email" id="email" required> <br><br>
+    
+                <label for="phone">Teléfono de contacto:</label> <br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{9}"  title="6 dígitos máximo y debe ir uno seguido del otro" required> <br>
+                <small>Formato: 611616161</small><br><br>
+    
+                <!-- Meter un disabled en el que al pasar el ratón por encima del género te avise de que esta elección es para saber cómo referirnos hacia la persona-->
+                <label for="cars">Género</label>
+                <select id="cars" name="gender" form="">
+                    <option value="mujer">Mujer</option>
+                    <option value="hombre">Hombre</option>
+                    <option value="neutral">Neutro</option>
+                    <option autofocus value="dontsay">Prefiero no decirlo</option>
+                </select> <br><br><br>
+    
+                <fieldset>
+                    <legend>Mascotas</legend> <!-- Meter que solo puedas elegir una opción y sea obligatorio -->
+                    <p>¿Tienes o has tenido mascotas alguna vez?</p>
+                    <input type="radio" name="pet" id="yes" value="Si" required>
+                    <label for="yes">Sí</label> <br>
+    
+                    <input type="radio" name="pet" id="no" value="No">
+                    <label for="no">No</label> <br><br><br>
+    
+                    <p>Si tienes o has tenido mascotas, ¿cuántas?</p>
+                    <label for="quantity">Cantidad (entre 1 y 20):</label>
+                    <input type="number" name="quantity" id="quantity" min="1" max="20"> <br><br><br>
+    
+                    <p>¿Qué tipo de mascota?</p>
+                    <input type="checkbox" name="numberPet" id="dogs" value="Perros">
+                    <label for="dogs">Perros</label> <br>
+    
+                    <input type="checkbox" name="numberPet" id="cats" value="Gatos">
+                    <label for="cats">Gatos</label> <br>
+    
+                    <input type="checkbox" name="numberPet" id="birds" value="Pajaros">
+                    <label for="birds">Pájaros</label> <br>
+    
+                    <input type="checkbox" name="numberPet" id="rodents" value="Roedores">
+                    <label for="rodents">Roedores</label> <br>
+    
+                    <input type="checkbox" name="numberPet" id="others" value="Otros">
+                    <label for="others">Otros</label> <br><br>
+                </fieldset> <br><br>
+    
+                <input type="reset"/>
+                <input type="submit" value="Enviar formulario">
+            </fieldset>
+        </form>
+        <p align="right"><a href="#principio">Ir al principio de la página</a></p>
+    </article> <br><br><br>
 
-                <input type="checkbox" name="numberPet" id="birds" value="Pajaros">
-                <label for="birds">Pájaros</label> <br>
-
-                <input type="checkbox" name="numberPet" id="rodents" value="Roedores">
-                <label for="rodents">Roedores</label> <br>
-
-                <input type="checkbox" name="numberPet" id="others" value="Otros">
-                <label for="others">Otros</label> <br><br>
-            </fieldset> <br><br>
-
-            <input type="reset"/>
-            <input type="submit" value="Enviar formulario">
-        </fieldset>
-        
-    </form>
-
-    <!-- <footer></footer> -->
+    <footer>
+        <p>Disponemos de una sección de Blog donde podréis ver diferentes artículos sobre cómo cuidar a tu mascota, los mejores consejos para adestrarla, alimentación básica, etc</p>
+        <address>
+            <p>Puedes contactarnos a través de:</p>
+            <blockquote>Correo:<a href="mailto:info@adoptaunamascota.com">info@adoptaunamascota.com</a></blockquote>
+            <blockquote>Teléfonos:<a href="tel:+34 988 66 06 66">988 66 06 66</a> || <a href="tel:+34 633 53 33 33">633 53 33 33</a></blockquote>
+            <blockquote> Dirección:  <br> 
+                <blockquote>
+                    P Sherman, <br>
+                    calle Wallaby 42  <br>
+                    Sidney, Australia
+                </blockquote> 
+            </blockquote>
+        </address>
+    </footer>
 
 </body>
 </html>
