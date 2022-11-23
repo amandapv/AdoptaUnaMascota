@@ -2,8 +2,8 @@ Ejercicio 1 = HECHO
 Ejercicio 2 = HECHO
 Ejercicio 3 = PENDIENTE {
     --Index: Hecho
-    --Adoption:
-    --Blog:
+    --Adoption: Hecho
+    --Blog: Haciendo
     --Shop:
     --AboutUs:  
 }
