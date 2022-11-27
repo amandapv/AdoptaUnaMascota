@@ -4,6 +4,6 @@ Ejercicio 3 = PENDIENTE {
     --Index: Hecho
     --Adoption: Hecho
     --Blog: Hecho
-    --Shop:
-    --AboutUs:  
+    --Shop: Hecho
+    --AboutUs: Haciendo
 }
