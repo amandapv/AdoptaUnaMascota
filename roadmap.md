@@ -7,3 +7,5 @@ Ejercicio 3 = HECHO {
     --Shop: Hecho
     --AboutUs: Hecho
 }
+Ejercicio 4 = HECHO
+Ejercicio 5 = Pendiente
