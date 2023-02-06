@@ -8,4 +8,8 @@ Ejercicio 3 = HECHO {
     --AboutUs: Hecho
 }
 Ejercicio 4 = HECHO
-Ejercicio 5 = Pendiente
+Ejercicio 5 = HECHO
+
+-----------------------
+
+Diseño de Adopta Una Mascota
