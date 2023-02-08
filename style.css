@@ -1,0 +1,57 @@
+/* Nav menu */
+.article1 {
+    background-color: #BDCDD6;
+}
+
+*{
+    
+}
+
+.header_style {
+    background-color: #6096B4;
+    text-align: center;
+    font-family: ;
+}
+
+
+.nav-menu {
+
+}
+
+.header_style h2:first-letter {
+    font-size: xxx-large;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.img_logo{
+
+}
+
+
+.menu-element_header {
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+
+.menu-element {
+    display: inline-block;
+    margin-right: 10%;
+    color: white;
+}
+
+
+.menu-element > a {
+    color: white;
+    text-decoration:none;
+}
+
+/* Header */
+
+
+
+
+
+/* Footer */
+
+
