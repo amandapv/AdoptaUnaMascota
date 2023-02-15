@@ -1,22 +1,30 @@
 /* Nav menu */
-.article1 {
-    background-color: #BDCDD6;
+.nav-menu {
+
 }
+
 
 *{
     
 }
 
+
+.article1 {
+    background-color: #BDCDD6;
+}
+
+
+.course1 {
+    column-count: 5;
+    width: 80%;
+}
+
 .header_style {
     background-color: #6096B4;
     text-align: center;
-    font-family: ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-.nav-menu {
-
-}
 
 .header_style h2:first-letter {
     font-size: xxx-large;
@@ -24,7 +32,7 @@
 }
 
 .img_logo{
-
+    padding-bottom: 30px;
 }
 
 
