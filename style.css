@@ -4,8 +4,11 @@
 }
 
 
-*{
-    
+html, body {
+    background-color: #BDCDD6;
+    margin: 0px;
+    padding: 0px;
+    height:100%;
 }
 
 
@@ -15,8 +18,9 @@
 
 
 .course1 {
-    column-count: 5;
-    width: 80%;
+    column-count: 3;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .header_style {
@@ -48,10 +52,48 @@
     color: white;
 }
 
+.sin_puntos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
 .menu-element > a {
     color: white;
     text-decoration:none;
+}
+
+.tarjetero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 47%;
+    margin: 1%;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.foto_animal {
+    float:left;
+    height: 100%;
+    width: 30%;
+    display: block;
+}
+
+.texto_animal {
+    display: flex;
+    padding: 1em;
+}
+
+@media (max-width: 1300px) {
+    .foto_animal {
+        float: none;
+        width: 100%;
+        height: 30%;
+    }
 }
 
 /* Header */
@@ -62,4 +104,16 @@
 
 /* Footer */
 
+footer {
+    background-color: #6096B4;
+    padding: 1%;
+}
 
+address {
+    display: flex;
+}
+
+address {
+    display: flex;
+    justify-content:space-between;
+}
