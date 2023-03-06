@@ -1,23 +1,21 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
+    <a id="principio"></a>
 </head>
+
 <body>
-    
-    <div>
-        <a id="principio"></a>
-    </div>
     <header class="header_style">
-        <h2>Adopta Una Mascota</h2>
+        <h2>ADOPTA UNA MASCOTA</h2>
         <!--<div class="menu-element_header">
             <a href="./index.html">Home</a>-->
         <a href="./index.html" target="_blank"> <img src="imgvd/iconoHome.jpg" alt="icono proyecto"
                 class="img_logo"></a>
-        </div>
 
         <!-- Navegation Menu-->
         <nav class="nav-menu">
@@ -53,13 +51,11 @@
 
     <article class="article1">
         <section class="course1">
-            <blockquote class="block_fiel">
-                <header>
-                    <h2>Acerca de la adopción </h2>
-                </header>
+            <div class="block_fiel">
                 <img src="./imgvd/fiel.jpg" alt="amorPerruno" class="img_amorPerruno">
-            </blockquote>
-            <blockquote class="txt_article1">
+            </div>
+            <div class="txt_article1">
+                <h2>Acerca de la adopción </h2>
                 <div>Aquí podrás ver los tipos de animales de los que nos hacemos cargo, características, raza y si está
                     en adopción.</div>
                 <div>Un animal en caso de que no esté en adopción, significa que todavía está recuperándose de algún
@@ -72,13 +68,12 @@
                 <div>Y recuerda... ADOPTA, NO COMPRES. Miles de animales mueren todos los días en perreras porque no
                     tienen más capacidad para albergarlos y necesitan liberarse de algunos, está en nuestras manos
                     ayudarlos.</div>
-            </blockquote>
-            <blockquote>
+            </div>
+            <div class="block_fiel">
                 <img src="./imgvd/grupoperros.jpg" alt="grupo de perros">
-            </blockquote>
+            </div>
         </section>
     </article>
-    <br><br>
 
     <article class="article1">
         <header>
@@ -96,76 +91,145 @@
 
                     <article class="tarjeta">
                         <a id="perla"></a>
-                        <img class="foto_animal" src="./imgvd/Perla.jpg" alt="Perla">
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/Perla.jpg" alt="Perla">
+                            <img class="foto_animal_no_blurr" src="./imgvd/Perla.jpg" alt="Perla">
+                        </div>
 
-                        <h3>Perla</h3>
-                        <div class="texto_animal">
-                            <div class="columna1_animal">
-                                <div class="caracteristicas">
-                                    <p>Características</p>
-                                    <ul>
-                                        <li>Es muy mimosa</li>
-                                        <li>Le encantan los niños</li>
-                                        <li>Pesa 15 kilos</li>
-                                        <li>Mide 60 cm</li>
-                                        <li>Recibe tratamiento para la piel atópica</li>
-                                        <li>Raza: Mezcla de Pomerania y Salchicha</li>
-                                    </ul>
-                                </div>
-                                <div class="en_adopcion">
-                                    <p>¿En adopción?</p>
+                        <div>
+                            <h3 class="pet_name">Perla</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <div class="caracteristicas">
+                                        <p>Características</p>
+                                        <ul>
+                                            <li>Es muy mimosa</li>
+                                            <li>Le encantan los niños</li>
+                                            <li>Pesa 15 kilos</li>
+                                            <li>Mide 60 cm</li>
+                                            <li>Recibe tratamiento para la piel atópica</li>
+                                            <li>Raza: Mezcla de Pomerania y Salchicha</li>
+                                        </ul>
+                                    </div>
+                                    <div class="en_adopcion">
+                                        <p>¿En adopción?</p>
 
-                                    <input type="checkbox" name="pet" id="yes" value="Si" disabled>
-                                    <label for="yes">Sí</label> <br>
+                                        <input type="checkbox" name="pet" id="yes" value="Si" disabled>
+                                        <label for="yes">Sí</label> <br>
 
-                                    <input type="checkbox" name="pet" id="no" value="No" checked>
-                                    <label for="no">No</label>
+                                        <input type="checkbox" name="pet" id="no" value="No" checked>
+                                        <label for="no">No</label>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="columna2_animal">
-                                <div class="gustos">
-                                    <p>¿Qué le gusta?</p>
-                                    <ul>
-                                        <li>Dormir</li>
-                                        <li>Que le den muchos cariñitos</li>
-                                        <li>Comer manzana</li>
-                                    </ul>
-                                </div>
-                                <div class="disgustos">
-                                    <p>¿Qué detesta?</p>
-                                    <ul>
-                                        <li>Quedarse sola</li>
-                                        <li>Que coman/beban de su mismo cuenco</li>
-                                    </ul>
-                                </div>
-                                <div class="genero">
-                                    <p>¿Macho o Hembra?</p>
-                                    <ul>
-                                        <li>Hembra</li>
-                                    </ul>
+                                <div class="columna2_animal">
+                                    <div class="gustos">
+                                        <p>¿Qué le gusta?</p>
+                                        <ul>
+                                            <li>Dormir</li>
+                                            <li>Que le den muchos cariñitos</li>
+                                            <li>Comer manzana</li>
+                                        </ul>
+                                    </div>
+                                    <div class="disgustos">
+                                        <p>¿Qué detesta?</p>
+                                        <ul>
+                                            <li>Quedarse sola</li>
+                                            <li>Que coman/beban de su mismo cuenco</li>
+                                        </ul>
+                                    </div>
+                                    <div class="genero">
+                                        <p>¿Macho o Hembra?</p>
+                                        <ul>
+                                            <li>Hembra</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
                     </article>
 
 
 
                     <article class="tarjeta">
                         <a id="haru"></a>
-                        <img class="foto_animal" src="./imgvd/haru.jpg" alt="haru">
-                        <h3>Haru</h3>
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/haru.jpg" alt="haru">
+                            <img class="foto_animal_no_blurr" src="./imgvd/haru.jpg" alt="haru">
+                        </div>
 
+                        <div>
+                            <h3 class="pet_name">Haru</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <div class="caracteristicas">
+                                        <p>Características</p>
+                                        <ul class="sin_puntos">
+                                            <li>» Le encatan las chuches</li>
+                                            <li>» No le gustan los niños</li>
+                                            <li>» Pesa 8 kilos</li>
+                                            <li>» Mide 40 cm de alto</li>
+                                            <li>» No recibe tratamientos</li>
+                                            <li>» Raza: Mezcla de Yorkshire terrier y Chihuahua</li>
+                                        </ul>
+                                    </div>
+                                    <div class="en_adopcion">
+                                        <p>¿En adopción?</p>
+
+                                        <input type="checkbox" name="pet" id="yes" value="Si" checked>
+                                        <label for="yes">Sí</label> <br>
+
+                                        <input type="checkbox" name="pet" id="no" value="No" disabled>
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                                <div class="columna2_animal">
+                                    <div class="gustos">
+                                        <p>¿Qué le gusta?</p>
+                                        <ul class="sin_puntos">
+                                            <li>» Los juguetes</li>
+                                            <li>» Dormir pegada a alguien</li>
+                                            <li>» Comer Huesos de jamón</li>
+                                        </ul>
+                                    </div>
+                                    <div class="disgustos">
+                                        <p>¿Qué detesta?</p>
+                                        <ul class="sin_puntos">
+                                            <li>» El arnés</li>
+                                            <li>» Que entren a su territorio</li>
+                                        </ul>
+                                    </div>
+                                    <div class="genero">
+                                        <p>¿Macho o Hembra?</p>
+                                        <ul class="sin_puntos">
+                                            <li>» Hembra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="tarjeta">
+                        <a id="linux"></a>
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/linux.jpg" alt="linux">
+                            <img class="foto_animal_no_blurr" src="./imgvd/linux.jpg" alt="linux">
+                        </div>
+                        <div>
+                            <h3 class="pet_name">Linux</h3>
                         <div class="texto_animal">
                             <div class="columna1_animal">
                                 <div class="caracteristicas">
                                     <p>Características</p>
-                                    <ul class="sin_puntos">
-                                        <li>» Le encatan las chuches</li>
-                                        <li>» No le gustan los niños</li>
-                                        <li>» Pesa 8 kilos</li>
-                                        <li>» Mide 40 cm de alto</li>
-                                        <li>» No recibe tratamientos</li>
-                                        <li>» Raza: Mezcla de Yorkshire terrier y Chihuahua</li>
+                                    <ul>
+                                        <li>Le encanta comer</li>
+                                        <li>No le gustan jugar</li>
+                                        <li>Pesa 10 kilos</li>
+                                        <li>Mide 45 cm de alto</li>
+                                        <li>Recibe tratamiento para la diarrea</li>
+                                        <li>Raza: Schnauzer miniatura</li>
                                     </ul>
                                 </div>
                                 <div class="en_adopcion">
@@ -181,70 +245,29 @@
                             <div class="columna2_animal">
                                 <div class="gustos">
                                     <p>¿Qué le gusta?</p>
-                                    <ul class="sin_puntos">
-                                        <li>» Los juguetes</li>
-                                        <li>» Dormir pegada a alguien</li>
-                                        <li>» Comer Huesos de jamón</li>
+                                    <ul>
+                                        <li>Los pasaeos muy largos</li>
+                                        <li>Que le rasquen</li>
+                                        <li>Comer salmón</li>
                                     </ul>
                                 </div>
                                 <div class="disgustos">
                                     <p>¿Qué detesta?</p>
-                                    <ul class="sin_puntos">
-                                        <li>» El arnés</li>
-                                        <li>» Que entren a su territorio</li>
+                                    <ul>
+                                        <li>Quedarse solo, cuando sucede, tira cosas al suelo</li>
+                                        <li>Los ruidos</li>
                                     </ul>
                                 </div>
                                 <div class="genero">
                                     <p>¿Macho o Hembra?</p>
-                                    <ul class="sin_puntos">
-                                        <li>» Hembra</li>
+                                    <ul>
+                                        <li>Macho</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                    </article>
-
-                    <article class="tarjeta">
-                        <a id="linux"></a>
-                        <img class="foto_animal" src="./imgvd/linux.jpg" alt="linux">
-                        <h3>Linux</h3>
-                        <div class="texto_animal">
-                            <div class="columna1_animal">
-                                <div class="caracteristicas"><p>Características</p>
-                            <ul>
-                                <li>Le encanta comer</li>
-                                <li>No le gustan jugar</li>
-                                <li>Pesa 10 kilos</li>
-                                <li>Mide 45 cm de alto</li>
-                                <li>Recibe tratamiento para la diarrea</li>
-                                <li>Raza: Schnauzer miniatura</li>
-                            </ul></div>
-                                <div class="en_adopcion"><p>¿En adopción?</p>
-
-                            <input type="checkbox" name="pet" id="yes" value="Si" checked>
-                            <label for="yes">Sí</label> <br>
-
-                            <input type="checkbox" name="pet" id="no" value="No" disabled>
-                            <label for="no">No</label></div>
-                            </div>
-                            <div class="columna2_animal">
-                                <div class="gustos"><p>¿Qué le gusta?</p>
-                            <ul>
-                                <li>Los pasaeos muy largos</li>
-                                <li>Que le rasquen</li>
-                                <li>Comer salmón</li>
-                            </ul></div>
-                                <div class="disgustos"><p>¿Qué detesta?</p>
-                            <ul>
-                                <li>Quedarse solo, cuando sucede, tira cosas al suelo</li>
-                                <li>Los ruidos</li>
-                            </ul></div>
-                                <div class="genero"><p>¿Macho o Hembra?</p>
-                            <ul>
-                                <li>Macho</li>
-                            </ul></div>
-                            </div>
                         </div>
+                        
                     </article>
                 </article>
             </fieldset>
@@ -254,187 +277,267 @@
         <section>
             <fieldset>
                 <legend>GATOS</legend>
-                <article>
-                    <header>Nuestros gatetes</header>
+                <header>Nuestros gatetes</header>
+                <article class="tarjetero">
 
-                    <article>
+                    <article class="tarjeta">
                         <a id="kity"></a>
-                        <h3>Kity</h3>
-                        <img src="./imgvd/kity.jpg" alt="kity">
-
-                        <div>
-                            <p>Características</p>
-                            <ul>
-                                <li>Muy fiel</li>
-                                <li>Tiene un maullido consistente</li>
-                                <li>Pesa 3 kilos</li>
-                                <li>Mide 24 cm de alto</li>
-                                <li>No recibe tratamientos</li>
-                                <li>Raza: Siamés</li>
-                            </ul>
-                            <p>¿Qué le gusta?</p>
-                            <ul>
-                                <li>Estar acompañada</li>
-                                <li>Comer sardinas</li>
-                                <li>Le gustan los rascaderos</li>
-                            </ul>
-                            <p>¿Qué detesta?</p>
-                            <ul>
-                                <li>Que le acaricien demasiado</li>
-                                <li>Que no le des la comida a su hora</li>
-                            </ul>
-                            <p>¿Macho o Hembra?</p>
-                            <ul>
-                                <li>Hembra</li>
-                            </ul>
-                            <p>¿En adopción?</p>
-
-                            <input type="checkbox" name="pet" id="yes" value="Si" checked>
-                            <label for="yes">Sí</label> <br>
-
-                            <input type="checkbox" name="pet" id="no" value="No" disabled>
-                            <label for="no">No</label>
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/kity.jpg" alt="kity">
+                            <img class="foto_animal_no_blurr" src="./imgvd/kity.jpg" alt="kity">
                         </div>
-                    </article> <br><br><br>
-
-                    <article>
-                        <a id="beethoven"></a>
-                        <h3>Beethoven</h3>
-                        <img src="./imgvd/Beethoven.jpg" alt="Beethoven">
 
                         <div>
-                            <p>Características</p>
-                            <ul>
-                                <li>Muy alegre y afectuoso</li>
-                                <li>Está sordo</li>
-                                <li>Pesa 4 kilos</li>
-                                <li>Mide 26 cm de alto</li>
-                                <li>Recibe tratamientos para la sordera</li>
-                                <li>Raza: Nebelung</li>
-                            </ul>
-                            <p>¿Qué le gusta?</p>
-                            <ul>
-                                <li>Dormir al sol</li>
-                                <li>Salir a pasear</li>
-                                <li>Le gustan los rascaderos</li>
-                            </ul>
-                            <p>¿Qué detesta?</p>
-                            <ul>
-                                <li>Jugar con otros, porque como está sordo, se asusta</li>
-                                <li>Que su arenero, cuenco de agua y comida no estén completamente limpios</li>
-                            </ul>
-                            <p>¿Macho o Hembra?</p>
-                            <ul>
-                                <li>Macho</li>
-                            </ul>
-                            <p>¿En adopción?</p>
+                            <h3 class="pet_name">Kity</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <div class="caracteristicas">
+                                        <p>Características</p>
+                                        <ul>
+                                            <li>Muy fiel</li>
+                                            <li>Tiene un maullido consistente</li>
+                                            <li>Pesa 3 kilos</li>
+                                            <li>Mide 24 cm de alto</li>
+                                            <li>No recibe tratamientos</li>
+                                            <li>Raza: Siamés</li>
+                                        </ul>
+                                    </div>
+                                    <div class="en_adopcion">
+                                        <p>¿En adopción?</p>
 
-                            <input type="checkbox" name="pet" id="yes" value="Si" checked>
-                            <label for="yes">Sí</label> <br>
+                                        <input type="checkbox" name="pet" id="yes" value="Si" checked>
+                                        <label for="yes">Sí</label> <br>
 
-                            <input type="checkbox" name="pet" id="no" value="No" disabled>
-                            <label for="no">No</label>
+                                        <input type="checkbox" name="pet" id="no" value="No" disabled>
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                                <div class="columna2_animal">
+                                    <div class="gustos">
+                                        <p>¿Qué le gusta?</p>
+                                        <ul>
+                                            <li>Estar acompañada</li>
+                                            <li>Comer sardinas</li>
+                                            <li>Le gustan los rascaderos</li>
+                                        </ul>
+                                    </div>
+                                    <div class="disgustos">
+                                        <p>¿Qué detesta?</p>
+                                        <ul>
+                                            <li>Que le acaricien demasiado</li>
+                                            <li>Que no le des la comida a su hora</li>
+                                        </ul>
+                                    </div>
+                                    <div class="genero">
+                                        <p>¿Macho o Hembra?</p>
+                                        <ul>
+                                            <li>Hembra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article class="tarjeta">
+                        <a id="beethoven"></a>
+
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/Beethoven.jpg" alt="Beethoven">
+                            <img class="foto_animal_no_blurr" src="./imgvd/Beethoven.jpg" alt="Beethoven">
+                        </div>
+                        <div>
+                            <h3 class="pet_name">Beethoven</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <div class="caracteristicas">
+                                        <p>Características</p>
+                                        <ul>
+                                            <li>Muy alegre y afectuoso</li>
+                                            <li>Está sordo</li>
+                                            <li>Pesa 4 kilos</li>
+                                            <li>Mide 26 cm de alto</li>
+                                            <li>Recibe tratamientos para la sordera</li>
+                                            <li>Raza: Nebelung</li>
+                                        </ul>
+                                    </div>
+                                    <div class="en_adopcion">
+                                        <p>¿En adopción?</p>
+
+                                        <input type="checkbox" name="pet" id="yes" value="Si" checked>
+                                        <label for="yes">Sí</label> <br>
+
+                                        <input type="checkbox" name="pet" id="no" value="No" disabled>
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                                <div class="columna2_animal">
+                                    <div class="gustos">
+                                        <p>¿Qué le gusta?</p>
+                                        <ul>
+                                            <li>Dormir al sol</li>
+                                            <li>Salir a pasear</li>
+                                            <li>Le gustan los rascaderos</li>
+                                        </ul>
+                                    </div>
+                                    <div class="disgustos">
+                                        <p>¿Qué detesta?</p>
+                                        <ul>
+                                            <li>Jugar con otros, porque como está sordo, se asusta</li>
+                                            <li>Que su arenero, cuenco de agua y comida no estén completamente limpios
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="genero">
+                                        <p>¿Macho o Hembra?</p>
+                                        <ul>
+                                            <li>Macho</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </article>
                 </article>
             </fieldset>
-        </section> <br><br><br>
+        </section>
 
         <!-- birds -->
         <section>
             <fieldset>
                 <legend>PÁJAROS</legend>
+                <header>Nuestros piadores</header>
+                <article class="tarjetero">
 
-                <article>
-                    <header>Nuestros piadores</header>
 
-                    <article>
+                    <article class="tarjeta">
                         <a id="piolin"></a>
-                        <h3>Piolín</h3>
-                        <img src="./imgvd/piolin.jpg" alt="piolin">
-
-                        <div>
-                            <p>Características</p>
-                            <ul>
-                                <li>Es hiperactiva</li>
-                                <li>Le gusta dar besitos</li>
-                                <li>Pesa 38 gramos</li>
-                                <li>Mide 18 cm</li>
-                                <li>No recibe tratamiento</li>
-                                <li>Raza: Periquito</li>
-                            </ul>
-                            <p>¿Qué le gusta?</p>
-                            <ul>
-                                <li>Su bañera</li>
-                                <li>Los palos de madera natural</li>
-                                <li>Columpiarse</li>
-                            </ul>
-                            <p>¿Qué detesta?</p>
-                            <ul>
-                                <li>Estar encerrada</li>
-                            </ul>
-                            <p>¿Macho o Hembra?</p>
-                            <ul>
-                                <li>Hembra</li>
-                            </ul>
-                            <p>¿En adopción?</p>
-
-                            <input type="checkbox" name="pet" id="yes" value="Si" checked>
-                            <label for="yes">Sí</label> <br>
-
-                            <input type="checkbox" name="pet" id="no" value="No" disabled>
-                            <label for="no">No</label>
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/piolin.jpg" alt="piolin">
+                            <img class="foto_animal_no_blurr" src="./imgvd/piolin.jpg" alt="piolin">
                         </div>
-                    </article> <br><br><br>
+                        <div>
+                            <h3 class="pet_name">Piolín</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <div class="caracteristicas">
+                                        <p>Características</p>
+                                        <ul>
+                                            <li>Es hiperactiva</li>
+                                            <li>Le gusta dar besitos</li>
+                                            <li>Pesa 38 gramos</li>
+                                            <li>Mide 18 cm</li>
+                                            <li>No recibe tratamiento</li>
+                                            <li>Raza: Periquito</li>
+                                        </ul>
+                                    </div>
+                                    <div class="en_adopcion">
+                                        <p>¿En adopción?</p>
+
+                                        <input type="checkbox" name="pet" id="yes" value="Si" checked>
+                                        <label for="yes">Sí</label> <br>
+
+                                        <input type="checkbox" name="pet" id="no" value="No" disabled>
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                                <div class="columna2_animal">
+                                    <div class="gustos">
+                                        <p>¿Qué le gusta?</p>
+                                        <ul>
+                                            <li>Su bañera</li>
+                                            <li>Los palos de madera natural</li>
+                                            <li>Columpiarse</li>
+                                        </ul>
+                                    </div>
+                                    <div class="disgustos">
+                                        <p>¿Qué detesta?</p>
+                                        <ul>
+                                            <li>Estar encerrada</li>
+                                        </ul>
+                                    </div>
+                                    <div class="genero">
+                                        <p>¿Macho o Hembra?</p>
+                                        <ul>
+                                            <li>Hembra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </article>
+                </article>
             </fieldset>
-        </section> <br><br><br>
+        </section>
 
         <!-- rodents -->
         <section>
             <fieldset>
                 <legend>ROEDORES</legend>
+                <header>Nuestras ratitas</header>
+                <article class="tarjetero">
 
-                <article>
-                    <header>Nuestras ratitas</header>
 
-                    <article>
+                    <article class="tarjeta">
                         <a id="hocicos"></a>
-                        <h3>Hocicos</h3>
-                        <img src="./imgvd/hocicos.jpg" alt="hocicos">
-
-                        <div>
-                            <p>Características</p>
-                            <ul>
-                                <li>Le gustan los abrazos</li>
-                                <li>Estar con otras chinchillas</li>
-                                <small>Las chinchillas prefieren vivir con otras parejas del mismo sexo</small>
-                                <li>Pesa 400 gramos</li>
-                                <li>Mide 26 cm</li>
-                                <li>Recibe tratamiento para el estómago, le cuesta digerir</li>
-                                <li>Raza: Chinchilla lanigera</li>
-                            </ul>
-                            <p>¿Qué le gusta?</p>
-                            <ul>
-                                <li>Corretear todo el rato</li>
-                                <li>Jugar con sus juguetes</li>
-                                <li>Dormir en su rueda</li>
-                            </ul>
-                            <p>¿Qué detesta?</p>
-                            <ul>
-                                <li>Estar encerrada</li>
-                            </ul>
-                            <p>¿Macho o Hembra?</p>
-                            <ul>
-                                <li>Hembra</li>
-                            </ul>
-                            <p>¿En adopción?</p>
-
-                            <input type="checkbox" name="pet" id="yes" value="Si" checked>
-                            <label for="yes">Sí</label> <br>
-
-                            <input type="checkbox" name="pet" id="no" value="No" disabled>
-                            <label for="no">No</label>
+                        <div class="foto_animal">
+                            <img class="foto_animal_blurr" src="./imgvd/hocicos.jpg" alt="hocicos">
+                            <img class="foto_animal_no_blurr" src="./imgvd/hocicos.jpg" alt="hocicos">
                         </div>
+                        <div>
+                            <h3 class="pet_name">Hocicos</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <div class="caracteristicas">
+                                        <p>Características</p>
+                                        <ul>
+                                            <li>Le gustan los abrazos</li>
+                                            <li>Estar con otras chinchillas</li>
+                                            <small>Las chinchillas prefieren vivir con otras parejas del mismo
+                                                sexo</small>
+                                            <li>Pesa 400 gramos</li>
+                                            <li>Mide 26 cm</li>
+                                            <li>Recibe tratamiento para el estómago, le cuesta digerir</li>
+                                            <li>Raza: Chinchilla lanigera</li>
+                                        </ul>
+                                    </div>
+                                    <div class="en_adopcion">
+                                        <p>¿En adopción?</p>
+
+                                        <input type="checkbox" name="pet" id="yes" value="Si" checked>
+                                        <label for="yes">Sí</label> <br>
+
+                                        <input type="checkbox" name="pet" id="no" value="No" disabled>
+                                        <label for="no">No</label>
+                                    </div>
+                                </div>
+                                <div class="columna2_animal">
+                                    <div class="gustos">
+                                        <p>¿Qué le gusta?</p>
+                                        <ul>
+                                            <li>Corretear todo el rato</li>
+                                            <li>Jugar con sus juguetes</li>
+                                            <li>Dormir en su rueda</li>
+                                        </ul>
+                                    </div>
+                                    <div class="disgustos">
+                                        <p>¿Qué detesta?</p>
+                                        <ul>
+                                            <li>Estar encerrada</li>
+                                        </ul>
+                                    </div>
+                                    <div class="genero">
+                                        <p>¿Macho o Hembra?</p>
+                                        <ul>
+                                            <li>Hembra</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </article>
 
                 </article>
@@ -455,13 +558,15 @@
 
     <footer>
         <div style="text-align: right"><a href="#principio">Ir al principio de la página</a></div>
-        <div style="text-align: left">Disponemos de una sección de Blog donde podréis ver diferentes artículos sobre cómo cuidar a tu mascota, los
+        <div style="text-align: left">Disponemos de una sección de Blog donde podréis ver diferentes artículos sobre
+            cómo cuidar a tu mascota, los
             mejores consejos para adestrarla, alimentación básica, etc</div>
         <address>
             <div class="direccion1">
                 <p>Puedes contactarnos a través de:</p>
                 <blockquote>Correo:<a href="mailto:info@adoptaunamascota.com">info@adoptaunamascota.com</a></blockquote>
-                <blockquote>Teléfonos:<a href="tel:+34 988 66 06 66">988 66 06 66</a> || <a href="tel:+34 633 53 33 33">633
+                <blockquote>Teléfonos:<a href="tel:+34 988 66 06 66">988 66 06 66</a> || <a
+                        href="tel:+34 633 53 33 33">633
                         53 33 33</a></blockquote>
             </div>
             <blockquote class="direccion2"> Dirección: <br>
