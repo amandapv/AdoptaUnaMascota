@@ -1,25 +1,40 @@
 /* Nav menu */
 .nav-menu {
-
+    padding-bottom: 55px;
 }
 
 
 html, body {
-    background-color: #BDCDD6;
     margin: 0px;
     padding: 0px;
     height:100%;
+    background-color: #e1f7ff;
+}
+
+input, select {
+    background-color: #e1f7ff;
 }
 
 
-.article1 {
+fieldset {
     background-color: #BDCDD6;
+}
+
+.article1 section {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .block_fiel img {
     height: 100%;
     width: 100%;
     display: block;
+    object-fit: cover;
+}
+
+.block_fiel video {
+    object-fit: fill;
+    
 }
 
 .txt_article1 {
@@ -34,7 +49,7 @@ html, body {
     margin: auto;
     max-width: 1600px;
     border-radius: 8px;
-    border: 2px solid #EEE9DA;
+    border: 2px solid #bfe5e3;
     overflow: hidden;
     background-color: #93BFCF;
 }
@@ -72,7 +87,7 @@ fieldset {
     max-width: 1600px;
     margin: auto;
     border-radius: 8px;
-    border-color: #EEE9DA;
+    border-color: #bfe5e3;
     border-style: outset;
 }
 
@@ -101,7 +116,7 @@ legend {
     color: #222d38;
     width: 47%;
     margin: 1%;
-    border: 2px solid #EEE9DA;
+    border: 2px solid #bfe5e3;
     border-radius: 8px;
     overflow: hidden;
     background-color: #93BFCF;
@@ -120,7 +135,6 @@ legend {
 
 .foto_animal {
     position: relative;
-    width: 60%;
     overflow: hidden;
 }
 
@@ -139,6 +153,7 @@ legend {
     width: 100%;
     height: 100%;
     filter: blur(10px);
+    object-fit: fill;
 }
 
 .pet_name {
@@ -147,7 +162,17 @@ legend {
 
 .texto_animal {
     display: flex;
-    padding: 1em;
+    justify-content: space-evenly
+}
+
+.aboutyou {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
 }
 
 @media (max-width: 1300px) {
@@ -157,6 +182,15 @@ legend {
     .foto_animal {
         width: 100%;
         height: 30%;
+    }
+    .block_fiel {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .tarjeta {
+        width: 100%;
     }
 }
 

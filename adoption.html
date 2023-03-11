@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Adopta Una Mascota</title>
     <a id="principio"></a>
 </head>
+
 <body>
     <header class="header_style">
         <h2>ADOPCIÓN</h2>
@@ -33,193 +35,291 @@
             <div class="menu-element">
                 <a href="./aboutUs.html" target="_blank">Sobre Nosotros</a>
             </div>
-            <!--
-            <a href="./adoption.html" target="_blank">Adopción</a> |
-            <a href="./blog.html" target="_blank">Blog</a> |
-            <a href="./shop.html" target="_blank">Tienda</a> |
-            <a href="./aboutUs.html" target="_blank">Sobre Nosotros</a>
-            <a id="principio"></a> 
-            -->
-            <!-- <ul> nav en forma de lista
-                <li><a href="#">Animales</a></li>
-                <li><a href="#">Adopción</a></li>
-            </ul>  -->
-        </nav> <br><br>
+        </nav>
     </header>
 
-    <article>
-        <header>
-            <h2>Adoptar una mascota</h2>
-        </header>
-
-        <blockquote>Para poder adoptar a estos animales, deberás cubrir el formulario de adopción que encontrás más abajo. Algunas cuestiones, cómo el Género, son meramente informativas para poder saber cómo referirnos a la persona con la que hablemos. Otras por el contrario son de vital importancia para la adopción, como la edad, ya que deberás ser mayor de 18 años, esto es así por ley.</blockquote>
-        <blockquote>Aquí solo aparecerán los animales que estén en adopción en este momento, si quieres ver los detalles de estos, solo tienes que pinchar en su nombre.</blockquote>
-        <blockquote> <video src="./imgvd/ninhoacariciaperro.mp4" autoplay controls loop height="200" width="350">niño acaricia a un perro</video> </blockquote>
-    </article> <br><br><br>
-
-    <article>
-        <header>
-            <h2>Animales en adopción</h2>
-        </header>
-        <section>
-            <fieldset>
-                <legend>PERROS</legend>
-                <article>
-                    
-                    <nav>
-                        <ul>
-                            <li><a href="./index.html#haru" target="_blank">Haru</a></li>
-                            <li><a href="./index.html#linux" target="_blank">Linux</a></li>
-                        </ul>
-                    </nav>
-                    <video src="./imgvd/perroparecidoaunodelosqueadoptamos.mp4" autoplay controls loop height="200" width="350">perro salvado</video>
-                </article>
-            </fieldset> <br><br>
-
-            <fieldset>
-                <legend>GATOS</legend>
-                <article>
-                    <nav>
-                        <ul>
-                            <li><a href="./index.html#kity" target="_blank">Kity</a></li>
-                            <li><a href="./index.html#beethoven" target="_blank">Beethoven</a></li>
-                        </ul>
-                    </nav>
-                    <video src="./imgvd/perroygato.mp4" autoplay controls loop height="200" width="350">perro y gato</video>
-                </article>
-            </fieldset> <br><br>
-
-            <fieldset>
-                <legend>PÁJAROS</legend>
-                <article>
-                    <nav>
-                        <ul>
-                            <li><a href="./index.html#piolin" target="_blank">Piolín</a></li>
-                        </ul>
-                    </nav>
-                    <video src="./imgvd/periquitos.mp4" autoplay controls loop height="200" width="350">periquito</video>
-                </article>
-            </fieldset>  <br><br>
- 
-            <fieldset>
-                <legend>ROEDORES</legend>
-                <article>
-                    <nav>
-                        <ul>
-                            <li><a href="./index.html#hocicos" target="_blank">Hocicos</a></li>
-                        </ul>
-                    </nav>
-                    <video src="./imgvd/roedores.mp4" autoplay controls loop height="200" width="350">roedor</video>
-                </article>
-            </fieldset> <br><br>
+    <article class="article1">
+        <section class="course1">
+            <div class="block_fiel">
+                <video src="./imgvd/ninhoacariciaperro.mp4" autoplay loop height="200" width="350">niño
+                    acaricia a un perro</video>
+            </div>
+            <div class="txt_article1">
+                <h2>Adoptar una mascota</h2>
+                <div>Para poder adoptar a estos animales, deberás cubrir el formulario de adopción que encontrás más
+                    abajo. Algunas cuestiones, cómo el Género, son meramente informativas para poder saber cómo
+                    referirnos a la persona con la que hablemos. Otras por el contrario son de vital importancia para la
+                    adopción, como la edad, ya que deberás ser mayor de 18 años, esto es así por ley.</div>
+                <div>Aquí solo aparecerán los animales que estén en adopción en este momento, si quieres ver los
+                    detalles de estos, solo tienes que pinchar en su nombre.</div>
+            </div>
+            <div class="block_fiel">
+                <video src="./imgvd/ninhoacariciaperro.mp4" autoplay loop height="200" width="350">niño
+                    acaricia a un perro</video>
+            </div>
         </section>
-    </article> <br><br><br>
-
-    <article>
-        <header>
-            <h2>Formulario de adopción</h2>
-        </header>
-
-        <form action="" method="get">
-            <fieldset>
-                <label for="fname">Nombre:</label> <br>
-                <input type="text" name="fname" id="fname" size="10" maxlength="10" required> <br><br>
-    
-                <label for="lname">Apellidos:</label><br>
-                <input type="text" name="lname" id="lname" size="25" maxlength="25" required> <br><br>
-    
-                <!-- edad - Meter un disabled en el que al pasar el ratón por encima de la edad que te diga que tienes que tener 18 años-->
-                <label for="datebirth">Fecha de nacimiento</label> <br>
-                <input type="date" name="datebirth" id="datebirth" max="2004-01-01" required> <br><br>
-    
-                <!-- trabajo?  -->
-    
-                <label for="email">Correo electrónico:</label> <br>
-                <input type="email" name="email" id="email" required> <br><br>
-    
-                <label for="phone">Teléfono de contacto:</label> <br>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{9}"  title="6 dígitos máximo y debe ir uno seguido del otro" required> <br>
-                <small>Formato: 611616161</small><br><br>
-    
-                <!-- Meter un disabled en el que al pasar el ratón por encima del género te avise de que esta elección es para saber cómo referirnos hacia la persona-->
-                <label for="cars">Género</label>
-                <select id="cars" name="gender" form="">
-                    <option value="mujer">Mujer</option>
-                    <option value="hombre">Hombre</option>
-                    <option value="neutral">Neutro</option>
-                    <option autofocus value="dontsay">Prefiero no decirlo</option>
-                </select> <br><br><br>
-    
-                <fieldset>
-                    <legend>Mascotas</legend> <!-- Meter que solo puedas elegir una opción y sea obligatorio -->
-                    <p>¿Tienes o has tenido mascotas alguna vez?</p>
-                    <input type="radio" name="pet" id="yes" value="Si" required>
-                    <label for="yes">Sí</label> <br>
-    
-                    <input type="radio" name="pet" id="no" value="No">
-                    <label for="no">No</label> <br><br><br>
-    
-                    <p>Si tienes o has tenido mascotas, ¿cuántas?</p>
-                    <label for="quantity">Cantidad (entre 1 y 20):</label>
-                    <input type="number" name="quantity" id="quantity" min="1" max="20"> <br><br><br>
-    
-                    <p>¿Qué tipo de mascota?</p>
-                    <input type="checkbox" name="numberPet" id="dogs" value="Perros">
-                    <label for="dogs">Perros</label> <br>
-    
-                    <input type="checkbox" name="numberPet" id="cats" value="Gatos">
-                    <label for="cats">Gatos</label> <br>
-    
-                    <input type="checkbox" name="numberPet" id="birds" value="Pajaros">
-                    <label for="birds">Pájaros</label> <br>
-    
-                    <input type="checkbox" name="numberPet" id="rodents" value="Roedores">
-                    <label for="rodents">Roedores</label> <br>
-    
-                    <input type="checkbox" name="numberPet" id="others" value="Otros">
-                    <label for="others">Otros</label> <br><br>
-                </fieldset> <br><br>
-    
-                <input type="reset"/>
-                <input type="submit" value="Enviar formulario">
-            </fieldset>
-        </form>
     </article>
 
-    <article>
-        <header>
-            <h2>Importante</h2>
-        </header>
-        
-        <blockquote>Una vez enviado el formulario de adopción, procederemos a revisar los datos para saber si los cumple. En caso de que no pueda/quiera enviar el formulario, por el motivo que sea, puede ponerse en contacto con nosotros y le realizaremos las preguntas pertinentes en persona.</blockquote>
-        <blockquote>Si el formulario ha sido aceptado, se le enviará un correo informando el día y hora aproximado en el que concretaremos una cita para poder conocerte y que puedas comentarnos unas cuestiones más que nos iteresan saber antes de que alguien adopte a una mascota. Son cuestiones básicas sobre; porqué quieres adoptar, situación laboral, etc.</blockquote>
-        <blockquote>En caso de que no puedas acudir a la cita ese día propuesto, solo tendrás que ponerte en contacto con nosotros a través de nuestro correo o llamar a alguno de los números de teléfono disponibles. Estos datos los encontrarás más abajo. En caso de que no hayas rellenado este formulario y por consecuente, acuedieras en persona a realizar este paso, no será necesario volver a concertar una cita. En ese mismo momento te diremos el importe sobre la mascota que te interese adoptar.</blockquote>
-        <blockquote>En la reunión te diremos el precio total ha pagar al adoptar a tu mascota, habrá que suplir una parte de los costes que ha supuesto ese animal. Dichos gastos hacen referencia a vacunas, pipetas y demás. De igual manera se agradecerá una donación por cuestiones como pienso, juguetes, etc.</blockquote>
-        <blockquote>Si todo está correcto, tras realizar el pago indicado a nuestra cuenta bancaria con IBAN: ES21 1465 0100 72 2030876293 (el concepto ha de ser "Adopción" y destinatario Amanda Pérez Vázquez) o a través de paypal adopta@adoptaunamascota.com.</blockquote>
-    </article> <br><br><br>
+    <article class="article1">
+        <section>
+            <fieldset>
+                <legend>Animales en adopción</legend>
+                <article class="tarjetero">
 
-    <footer>
-        <div style="text-align: right"><a href="#principio">Ir al principio de la página</a></div>
-        <div style="text-align: left">Disponemos de una sección de Blog donde podréis ver diferentes artículos sobre
-            cómo cuidar a tu mascota, los
-            mejores consejos para adestrarla, alimentación básica, etc</div>
-        <address>
-            <div class="direccion1">
-                <p>Puedes contactarnos a través de:</p>
-                <blockquote>Correo:<a href="mailto:info@adoptaunamascota.com">info@adoptaunamascota.com</a></blockquote>
-                <blockquote>Teléfonos:<a href="tel:+34 988 66 06 66">988 66 06 66</a> || <a
-                        href="tel:+34 633 53 33 33">633
-                        53 33 33</a></blockquote>
-            </div>
-            <blockquote class="direccion2"> Dirección: <br>
-                <blockquote>
-                    P Sherman, <br>
-                    calle Wallaby 42 <br>
-                    Sidney, Australia
+                    <article class="tarjeta">
+                        <div class="foto_animal">
+                            <video class="foto_animal_blurr" src="./imgvd/perroparecidoaunodelosqueadoptamos.mp4"
+                                autoplay loop>perro salvado</video>
+                            <video class="foto_animal_no_blurr" src="./imgvd/perroparecidoaunodelosqueadoptamos.mp4"
+                                autoplay loop>perro salvado</video>
+                        </div>
+
+                        <div>
+                            <h3 class="pet_name">PERROS</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <a href="./index.html#haru" target="_blank">Haru</a>
+                                </div>
+                                <div class="columna2_animal">
+                                    <a href="./index.html#linux" target="_blank">Linux</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tarjeta">
+                        <div class="foto_animal">
+                            <video class="foto_animal_blurr" src="./imgvd/perroygato.mp4" autoplay loop
+                                height="200" width="350">perro y gato</video>
+                            <video class="foto_animal_no_blurr" src="./imgvd/perroygato.mp4" autoplay loop
+                                height="200" width="350">perro y gato</video>
+                        </div>
+
+                        <div>
+                            <h3 class="pet_name">GATOS</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <a href="./index.html#kity" target="_blank">Kity</a>
+                                </div>
+                                <div class="columna2_animal">
+                                    <a href="./index.html#beethoven" target="_blank">Beethoven</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tarjeta">
+                        <div class="foto_animal">
+                            <video class="foto_animal_blurr" src="./imgvd/periquitos.mp4" autoplay loop
+                                height="200" width="350">periquito</video>
+                            <video class="foto_animal_no_blurr" src="./imgvd/periquitos.mp4" autoplay loop
+                                height="200" width="350">periquito</video>
+                        </div>
+
+                        <div>
+                            <h3 class="pet_name">PÁJAROS</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <a href="./index.html#piolin" target="_blank">Piolín</a>
+                                </div>
+                                <!--<div class="columna2_animal">-->
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="tarjeta">
+                        <div class="foto_animal">
+                            <video class="foto_animal_blurr" src="./imgvd/roedores.mp4" autoplay loop
+                                height="200" width="350">roedor</video>
+                            <video class="foto_animal_no_blurr" src="./imgvd/roedores.mp4" autoplay loop
+                                height="200" width="350">roedor</video>
+                        </div>
+
+                        <div>
+                            <h3 class="pet_name">ROEDORES</h3>
+                            <div class="texto_animal">
+                                <div class="columna1_animal">
+                                    <a href="./index.html#hocicos" target="_blank">Hocicos</a>
+                                </div>
+                                <!--<div class="columna2_animal">
+                                </div>-->
+                            </div>
+                        </div>
+                    </article>
+                </article>
+            </fieldset>
+        </section>
+
+        <article>
+            <section>
+                <fieldset>
+                    <legend>Formulario de adopción</legend>
+                    <form action="" method="get" class="tarjetero">
+                        <article class="tarjeta">
+                            <div>
+                                <div class="texto_animal">
+                                    <div class="columna1_animal">
+                                        <legend>Sobre tí</legend>
+                                        <div class="aboutyou">
+                                            <label for="fname">Nombre:</label>
+                                            <input type="text" name="fname" id="fname" size="10" maxlength="10"
+                                                required>
+                                        </div>
+
+                                        <div class="aboutyou">
+                                            <label for="lname">Apellidos:</label>
+                                            <input type="text" name="lname" id="lname" size="25" maxlength="25"
+                                                required>
+                                        </div>
+
+
+                                        <div class="aboutyou">
+                                            <!-- edad - Meter un disabled en el que al pasar el ratón por encima de la edad que te diga que tienes que tener 18 años-->
+                                            <label for="datebirth">Fecha de nacimiento</label>
+                                            <input type="date" name="datebirth" id="datebirth" max="2004-01-01"
+                                                required>
+                                        </div class="aboutyou">
+
+                                        <div class="aboutyou">
+                                            <!-- trabajo?  -->
+                                            <label for="email">Correo electrónico:</label>
+                                            <input type="email" name="email" id="email" required>
+                                        </div>
+
+                                        <div class="aboutyou">
+                                            <label for="phone">Teléfono de contacto:</label>
+                                            <input type="tel" id="phone" name="phone" pattern="[0-9]{9}"
+                                                title="6 dígitos máximo y debe ir uno seguido del otro" required>
+                                            <small>Formato: 611616161</small>
+                                        </div>
+
+                                        <div class="aboutyou">
+                                            <!-- Meter un disabled en el que al pasar el ratón por encima del género te avise de que esta elección es para saber cómo referirnos hacia la persona-->
+                                            <label for="cars">Género</label>
+                                            <select id="cars" name="gender" form="">
+                                                <option value="mujer">Mujer</option>
+                                                <option value="hombre">Hombre</option>
+                                                <option value="neutral">Neutro</option>
+                                                <option autofocus value="dontsay">Prefiero no decirlo</option>
+                                                </select>
+                                        </div>
+                                    </div>
+                                </div>
+                        </article>
+                        <article class="tarjeta">
+                            <div>
+                                <div class="texto_animal">
+                                    <div class="columna1_animal">
+                                        <legend>Sobre tus mascotas</legend>
+                                        <!-- Meter que solo puedas elegir una opción y sea obligatorio -->
+                                        <p>¿Tienes o has tenido mascotas alguna vez?</p>
+                                        <input type="radio" name="pet" id="yes" value="Si" required>
+                                        <label for="yes">Sí</label>
+
+                                        <input type="radio" name="pet" id="no" value="No">
+                                        <label for="no">No</label>
+
+                                        <p>Si tienes o has tenido mascotas, ¿cuántas?</p>
+                                        <label for="quantity">Cantidad (entre 1 y 20):</label>
+                                        <input type="number" name="quantity" id="quantity" min="1" max="20">
+
+
+                                        <p>¿Qué tipo de mascota?</p>
+                                        <input type="checkbox" name="numberPet" id="dogs" value="Perros">
+                                        <label for="dogs">Perros</label>
+
+                                        <input type="checkbox" name="numberPet" id="cats" value="Gatos">
+                                        <label for="cats">Gatos</label>
+
+                                        <input type="checkbox" name="numberPet" id="birds" value="Pajaros">
+                                        <label for="birds">Pájaros</label>
+
+                                        <input type="checkbox" name="numberPet" id="rodents" value="Roedores">
+                                        <label for="rodents">Roedores</label>
+
+                                        <input type="checkbox" name="numberPet" id="others" value="Otros">
+                                        <label for="others">Otros</label>
+                                    </div>
+                                    <div class="columna2_animal">
+                                    </div>
+                                </div>
+                        </article>
+                        <div class="centered">
+                            <input type="reset" />
+                            <input type="submit" value="Enviar formulario">
+                        </div>
+                    </form>
+                </fieldset>
+            </section>
+
+
+        </article>
+
+        <article>
+            <section>
+                <fieldset>
+                    <legend>Importante</legend>
+                    <blockquote>Una vez enviado el formulario de adopción, procederemos a revisar los datos para saber
+                        si los
+                        cumple. En caso de que no pueda/quiera enviar el formulario, por el motivo que sea, puede
+                        ponerse en
+                        contacto con nosotros y le realizaremos las preguntas pertinentes en persona.</blockquote>
+                    <blockquote>Si el formulario ha sido aceptado, se le enviará un correo informando el día y hora
+                        aproximado
+                        en el
+                        que concretaremos una cita para poder conocerte y que puedas comentarnos unas cuestiones más que
+                        nos
+                        iteresan saber antes de que alguien adopte a una mascota. Son cuestiones básicas sobre; porqué
+                        quieres
+                        adoptar, situación laboral, etc.</blockquote>
+                    <blockquote>En caso de que no puedas acudir a la cita ese día propuesto, solo tendrás que ponerte en
+                        contacto
+                        con nosotros a través de nuestro correo o llamar a alguno de los números de teléfono
+                        disponibles. Estos
+                        datos los encontrarás más abajo. En caso de que no hayas rellenado este formulario y por
+                        consecuente,
+                        acuedieras en persona a realizar este paso, no será necesario volver a concertar una cita. En
+                        ese mismo
+                        momento te diremos el importe sobre la mascota que te interese adoptar.</blockquote>
+                    <blockquote>En la reunión te diremos el precio total ha pagar al adoptar a tu mascota, habrá que
+                        suplir una
+                        parte de los costes que ha supuesto ese animal. Dichos gastos hacen referencia a vacunas,
+                        pipetas y
+                        demás.
+                        De igual manera se agradecerá una donación por cuestiones como pienso, juguetes, etc.
+                    </blockquote>
+                    <blockquote>Si todo está correcto, tras realizar el pago indicado a nuestra cuenta bancaria con
+                        IBAN: ES21
+                        1465
+                        0100 72 2030876293 (el concepto ha de ser "Adopción" y destinatario Amanda Pérez Vázquez) o a
+                        través de
+                        paypal adopta@adoptaunamascota.com.</blockquote>
+                </fieldset>
+            </section>
+        </article>
+
+        <footer>
+            <div style="text-align: right"><a href="#principio">Ir al principio de la página</a></div>
+            <div style="text-align: left">Disponemos de una sección de Blog donde podréis ver diferentes artículos sobre
+                cómo cuidar a tu mascota, los
+                mejores consejos para adestrarla, alimentación básica, etc</div>
+            <address>
+                <div class="direccion1">
+                    <p>Puedes contactarnos a través de:</p>
+                    <blockquote>Correo:<a href="mailto:info@adoptaunamascota.com">info@adoptaunamascota.com</a>
+                    </blockquote>
+                    <blockquote>Teléfonos:<a href="tel:+34 988 66 06 66">988 66 06 66</a> || <a
+                            href="tel:+34 633 53 33 33">633
+                            53 33 33</a></blockquote>
+                </div>
+                <blockquote class="direccion2"> Dirección:
+                    <blockquote>
+                        P Sherman,
+                        calle Wallaby 42
+                        Sidney, Australia
+                    </blockquote>
                 </blockquote>
-            </blockquote>
-        </address>
-    </footer>
+            </address>
+        </footer>
 
 </body>
+
 </html>
